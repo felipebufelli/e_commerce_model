@@ -6,9 +6,9 @@ class CustomDrawer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
-        children: <Widget>[
+        children: const <Widget>[
           DrawerTile(
-            iconData: Icons.home, 
+            iconData:  Icons.home, 
             title: "Início",
             page: 0,
           ),
