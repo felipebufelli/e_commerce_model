@@ -1,5 +1,6 @@
 import 'package:e_commerce_model/models/user_manager.dart';
 import 'package:e_commerce_model/screens/base/base_screen.dart';
+import 'package:e_commerce_model/screens/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -22,7 +23,20 @@ class MyApp extends StatelessWidget {
               elevation: 0,
             ),
             visualDensity: VisualDensity.adaptivePlatformDensity),
-        home: BaseScreen(),
+        initialRoute: '/base',
+        onGenerateRoute: (settings) {
+          switch (settings.name) {
+            case '/signup':
+              return MaterialPageRoute(
+                builder: (_) => SignUpScreen()
+              );
+            case '/base':
+            default: 
+              return MaterialPageRoute(
+                builder: (_) => BaseScreen()
+              );
+          }
+        },
       ),
     );
   }
