@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_model/helpers/firebase_errors.dart';
 import 'package:e_commerce_model/models/user.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -11,7 +12,9 @@ class UserManager extends ChangeNotifier {
   }
 
   final FirebaseAuth auth = FirebaseAuth.instance;
-  FirebaseUser user;
+  final Firestore firestore = Firestore.instance;
+  
+  User user;
 
   bool _loading = false; 
   bool get loading => _loading;
@@ -25,7 +28,7 @@ class UserManager extends ChangeNotifier {
         email: user.email,
         password: user.password,
       );
-      this.user = result.user;
+      await _loadCurrentUser(firebaseUser: result.user);
       onSuccess();
     } on PlatformException catch(error) {
       onFail(getErrorString(error.code));
@@ -34,17 +37,44 @@ class UserManager extends ChangeNotifier {
     loading = false;
   }
 
+  Future<void> signUp({User user, Function onFail, Function onSucess}) async {
+    loading = true;
+    try {
+      final AuthResult result = await auth.createUserWithEmailAndPassword(
+      email: user.email,
+      password: user.password,
+      );
+
+      user.id = result.user.uid;
+      this.user = user;
+
+      await user.saveData();
+
+      onSucess();
+
+    } on PlatformException catch(e) {
+      onFail(getErrorString(e.code));
+    }
+    loading = false;
+  }  
+
   set loading(bool value) {
     _loading = value;
     notifyListeners();
   }
 
-  Future<void> _loadCurrentUser() async {
-    final FirebaseUser currentUser = await auth.currentUser();
+  Future<void> _loadCurrentUser({FirebaseUser firebaseUser}) async {
+    final FirebaseUser currentUser = firebaseUser ?? await auth.currentUser();
     if(currentUser != null) {
-      user = currentUser;
+
+      final DocumentSnapshot docUser = await firestore.collection('users')
+        .document(currentUser.uid).get();
+
+      user = User.fromDocument(docUser);
+
+      notifyListeners();
+
     }
-    notifyListeners();
   }
 
 }

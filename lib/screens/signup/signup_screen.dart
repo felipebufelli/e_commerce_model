@@ -1,6 +1,8 @@
 import 'package:e_commerce_model/helpers/validators.dart';
 import 'package:e_commerce_model/models/user.dart';
+import 'package:e_commerce_model/models/user_manager.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class SignUpScreen extends StatelessWidget {
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
@@ -114,7 +116,23 @@ class SignUpScreen extends StatelessWidget {
                           return;
                         }
 
-                        //TODO MANDAR O USER PARA O USERMANAGER
+                        context.read<UserManager>().signUp(
+                            user: user,
+                            onSucess: () {
+                              debugPrint('sucesso de cadastro!');
+                              //TODO POP
+                            },
+                            onFail: (e) {
+                              scaffolKey.currentState.showSnackBar(
+                                SnackBar(
+                                  content: Text(
+                                    'Falha ao cadastrar: $e',
+                                    overflow: TextOverflow.fade,
+                                  ),
+                                  backgroundColor: Colors.red,
+                                ),
+                              );
+                            });
                       }
                     },
                     color: Theme.of(context).primaryColor,
