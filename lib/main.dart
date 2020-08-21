@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/models/products_manager.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
 import 'package:e_commerce_model/screens/base/base_screen.dart';
 import 'package:e_commerce_model/screens/login/login_screen.dart';
@@ -12,9 +13,17 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) => UserManager(),
-      lazy: false,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => UserManager(),
+          lazy: false,
+        ),
+        Provider(
+          create: (_) => ProductManager(),
+          lazy: false,
+        ),
+      ],
       child: MaterialApp(
         title: 'E-commerce Model',
         debugShowCheckedModeBanner: false,
@@ -29,18 +38,12 @@ class MyApp extends StatelessWidget {
         onGenerateRoute: (settings) {
           switch (settings.name) {
             case '/login':
-              return MaterialPageRoute(
-                builder: (_) => LoginScreen()
-              );
+              return MaterialPageRoute(builder: (_) => LoginScreen());
             case '/signup':
-              return MaterialPageRoute(
-                builder: (_) => SignUpScreen()
-              );
+              return MaterialPageRoute(builder: (_) => SignUpScreen());
             case '/base':
-            default: 
-              return MaterialPageRoute(
-                builder: (_) => BaseScreen()
-              );
+            default:
+              return MaterialPageRoute(builder: (_) => BaseScreen());
           }
         },
       ),
