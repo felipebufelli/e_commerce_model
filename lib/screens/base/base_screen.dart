@@ -1,6 +1,6 @@
 import 'package:e_commerce_model/common/custom_drawer/custom_drawer.dart';
 import 'package:e_commerce_model/models/page_manager.dart';
-import 'package:e_commerce_model/screens/products.dart/products_screen.dart';
+import 'package:e_commerce_model/screens/products/products_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
