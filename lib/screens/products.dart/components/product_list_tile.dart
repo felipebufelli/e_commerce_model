@@ -2,7 +2,8 @@ import 'package:e_commerce_model/models/product.dart';
 import 'package:flutter/material.dart';
 
 class ProductListTile extends StatelessWidget {
-  ProductListTile(this.product);
+
+  const ProductListTile(this.product);
 
   final Product product;
 
@@ -29,7 +30,7 @@ class ProductListTile extends StatelessWidget {
                 children: <Widget>[
                   Text(
                     product.name,
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w900,
                     ),
