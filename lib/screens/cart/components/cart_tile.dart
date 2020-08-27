@@ -1,5 +1,7 @@
+import 'package:e_commerce_model/common/custom_icon_button.dart';
 import 'package:e_commerce_model/models/cart_product.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class CartTile extends StatelessWidget {
   const CartTile(this.cartProduct);
@@ -8,21 +10,24 @@ class CartTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
-      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        child:  Row(
-          children: <Widget>[
-            SizedBox(
-              height: 80,
-              width: 80,
-              child: Image.network(cartProduct.product.images.first),
-            ),
-            Expanded(
-              child: Padding(
+    return ChangeNotifierProvider.value(
+      value: cartProduct,
+      child: Card(
+        margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          child: Row(
+            children: <Widget>[
+              SizedBox(
+                height: 80,
+                width: 80,
+                child: Image.network(cartProduct.product.images.first),
+              ),
+              Expanded(
+                  child: Padding(
                 padding: const EdgeInsets.only(left: 16),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
                       cartProduct.product.name,
@@ -36,7 +41,7 @@ class CartTile extends StatelessWidget {
                       child: Text(
                         'Tamanho: ${cartProduct.size}',
                         style: const TextStyle(
-                        fontWeight: FontWeight.w300,
+                          fontWeight: FontWeight.w300,
                         ),
                       ),
                     ),
@@ -50,9 +55,35 @@ class CartTile extends StatelessWidget {
                     ),
                   ],
                 ),
+              )),
+              Consumer<CartProduct>(
+                builder: (_, cartProduct, __) {
+                  return Column(
+                    children: <Widget>[
+                      CustomIconButton(
+                        iconData: Icons.add,
+                        color: Theme.of(context).primaryColor,
+                        onTap: cartProduct.increment,
+                      ),
+                      Text(
+                        '${cartProduct.quantity}',
+                        style: const TextStyle(
+                          fontSize: 20,
+                        ),
+                      ),
+                      CustomIconButton(
+                        iconData: Icons.remove,
+                        color: cartProduct.quantity > 1
+                          ? Theme.of(context).primaryColor
+                          : Colors.red,
+                        onTap: cartProduct.decrement,
+                      ),
+                    ],
+                  );
+                },
               )
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );

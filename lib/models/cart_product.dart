@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_model/models/item_size.dart';
 import 'package:e_commerce_model/models/product.dart';
+import 'package:flutter/foundation.dart';
 
-class CartProduct {
+class CartProduct extends ChangeNotifier {
 
   CartProduct.fromProduct(this.product){
     productId = product.id;
@@ -42,6 +43,28 @@ class CartProduct {
     } else {
       return itemSize?.price ?? 0;
     }
+  }
+
+  Map<String, dynamic> toCartItemMap() {
+    return {
+      'pid': productId,
+      'quantity': quantity,
+      'size': size,
+    };
+  }
+  
+  bool stackable(Product product) {
+    return product.id == productId && product.selectedSize.name == size;
+  }
+
+  void increment() {
+    quantity++;
+    notifyListeners();
+  }
+
+  void decrement() {
+    quantity--;
+    notifyListeners();
   }
 
 }
