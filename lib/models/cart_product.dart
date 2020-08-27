@@ -12,6 +12,7 @@ class CartProduct extends ChangeNotifier {
   }
 
   CartProduct.fromDocument(DocumentSnapshot document){
+    id = document.documentID;
     productId = document.data['pid'] as String;
     quantity = document.data['quantity'] as int;
     size = document.data['size'] as String;
@@ -23,6 +24,7 @@ class CartProduct extends ChangeNotifier {
 
   final Firestore firestore = Firestore.instance;
 
+  String id;
   String productId;
   int quantity;
   String size;
