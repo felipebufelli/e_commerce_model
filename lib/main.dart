@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/models/cart_manager.dart';
 import 'package:e_commerce_model/models/product.dart';
 import 'package:e_commerce_model/models/products_manager.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
@@ -23,6 +24,10 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => ProductManager(),
+          lazy: false,
+        ),
+        Provider(
+          create: (_) => CartManager(),
           lazy: false,
         ),
       ],
