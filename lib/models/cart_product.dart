@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/models/item_size.dart';
 import 'package:e_commerce_model/models/product.dart';
 
 class CartProduct {
@@ -13,5 +14,21 @@ class CartProduct {
   String size;
 
   Product product;
+
+  ItemSize get itemSize {
+    if(product == null) {
+      return null;
+    } else {
+      return product.findSize(size);
+    }
+  }
+
+  num get unitPrice {
+    if(product == null) {
+      return 0;
+    } else {
+      return itemSize?.price ?? 0;
+    }
+  }
 
 }
