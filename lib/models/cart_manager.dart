@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_model/models/cart_product.dart';
 import 'package:e_commerce_model/models/product.dart';
@@ -12,6 +10,8 @@ class CartManager extends ChangeNotifier {
   List<CartProduct> items = [];
 
   User user;
+
+  num productsPrice = 0.0;
 
   void updateUser(UserManager userManager){
     user = userManager.user;
@@ -41,6 +41,7 @@ class CartManager extends ChangeNotifier {
       items.add(cartProduct);
       user.cartReference.add(cartProduct.toCartItemMap())
         .then((doc) => cartProduct.id = doc.documentID);
+      _onItemUpdated();
     }
     notifyListeners();
   }
@@ -55,18 +56,36 @@ class CartManager extends ChangeNotifier {
   }
 
   void _onItemUpdated(){
-    for(final cartProduct in items) {
+
+    productsPrice = 0.0;
+
+    for(int i =0; i < items.length; i++) {
+
+      final cartProduct = items[i];
+
       if(cartProduct.quantity == 0) {
         removeFromCart(cartProduct);
+        i--;
+        continue;
       } else {
+        productsPrice += cartProduct.totalPrice;
         _updateCartProduct(cartProduct);
       }
     }
   }
 
   void _updateCartProduct(CartProduct cartProduct){
-    user.cartReference.document(cartProduct.id)
-      .updateData(cartProduct.toCartItemMap());
+    if(cartProduct.id != null) {
+      user.cartReference.document(cartProduct.id)
+        .updateData(cartProduct.toCartItemMap());
+    }
+  }
+
+  bool get isCartValid {
+    for(final cartProduct in items) {
+      if(cartProduct.hasStock) return false;
+    }
+    return true;
   }
 
 }
