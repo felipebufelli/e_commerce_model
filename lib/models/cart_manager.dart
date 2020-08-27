@@ -72,6 +72,7 @@ class CartManager extends ChangeNotifier {
         _updateCartProduct(cartProduct);
       }
     }
+    notifyListeners();
   }
 
   void _updateCartProduct(CartProduct cartProduct){
@@ -83,7 +84,7 @@ class CartManager extends ChangeNotifier {
 
   bool get isCartValid {
     for(final cartProduct in items) {
-      if(cartProduct.hasStock) return false;
+      if(!cartProduct.hasStock) return false;
     }
     return true;
   }
