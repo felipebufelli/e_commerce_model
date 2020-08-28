@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/common/custom_drawer/custom_drawer.dart';
 import 'package:e_commerce_model/models/home_manager.dart';
 import 'package:e_commerce_model/screens/home/components/section_list.dart';
@@ -13,11 +14,11 @@ class HomeScreen extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Container(
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               gradient: LinearGradient(
                 colors: [
-                  Color.fromARGB(255, 211, 118, 130),
-                  Color.fromARGB(255, 253, 181, 168),
+                  CustomColors.highHomeColor,
+                  CustomColors.lowHomeColor,
                 ],
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,

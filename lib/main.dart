@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/models/cart_manager.dart';
 import 'package:e_commerce_model/models/home_manager.dart';
 import 'package:e_commerce_model/models/product.dart';
@@ -42,8 +43,8 @@ class MyApp extends StatelessWidget {
         title: 'E-commerce Model',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-            primaryColor: const Color.fromARGB(255, 4, 125, 141),
-            scaffoldBackgroundColor: const Color.fromARGB(255, 4, 125, 141),
+            primaryColor: CustomColors.primaryColor,
+            scaffoldBackgroundColor: CustomColors.primaryColor,
             appBarTheme: const AppBarTheme(
               elevation: 0,
             ),
