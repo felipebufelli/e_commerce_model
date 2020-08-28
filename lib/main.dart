@@ -1,4 +1,5 @@
 import 'package:e_commerce_model/models/cart_manager.dart';
+import 'package:e_commerce_model/models/home_manager.dart';
 import 'package:e_commerce_model/models/product.dart';
 import 'package:e_commerce_model/models/products_manager.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
@@ -25,6 +26,10 @@ class MyApp extends StatelessWidget {
         ),
         ChangeNotifierProvider(
           create: (_) => ProductManager(),
+          lazy: false,
+        ),
+        Provider(
+          create: (_) => HomeManager(),
           lazy: false,
         ),
         ChangeNotifierProxyProvider<UserManager, CartManager>(
