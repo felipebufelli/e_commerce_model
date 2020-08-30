@@ -20,6 +20,7 @@ class User {
   String password;
   String name;
   String confirmPassword;
+  bool admin = false;
 
   DocumentReference get firestoreRef => Firestore.instance.document('users/$id');
   CollectionReference get cartReference => firestoreRef.collection('cart');
