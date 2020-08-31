@@ -16,8 +16,15 @@ class ImagesForm extends StatelessWidget {
   Widget build(BuildContext context) {
     final primaryColor = Theme.of(context).primaryColor;
     return FormField<List<dynamic>>(
-      initialValue: product.images,
+      initialValue: List.from(product.images),
       builder: (state){
+
+        void onImageSelected(File file){
+          state.value.add(file);
+          state.didChange(state.value);
+          Navigator.of(context).pop();
+        }
+
         return AspectRatio(
           aspectRatio: 1,
           child: Carousel(
@@ -47,19 +54,23 @@ class ImagesForm extends StatelessWidget {
               Material(
                 color: Colors.grey[100],
                 child: IconButton(
-                  icon: Icon(Icons.add_a_photo),
+                  icon: const Icon(Icons.add_a_photo),
                   color: CustomColors.primaryColor,
                   iconSize: 50,
                   onPressed: () {
                     if(Platform.isAndroid){
                       showModalBottomSheet(
                         context: context, 
-                        builder: (_) => ImageSourceSheet(),
+                        builder: (_) => ImageSourceSheet(
+                          onImageSelected: onImageSelected,
+                        ),
                       );
                     } else {
                       showCupertinoModalPopup(
                         context: context, 
-                        builder: (_) => ImageSourceSheet(),
+                        builder: (_) => ImageSourceSheet(
+                          onImageSelected: onImageSelected,
+                        ),
                       );
                     }
                   }
