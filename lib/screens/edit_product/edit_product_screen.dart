@@ -3,22 +3,37 @@ import 'package:e_commerce_model/screens/edit_product/components/images_form.dar
 import 'package:flutter/material.dart';
 
 class EditProductScreen extends StatelessWidget {
-
-  const EditProductScreen(this.product);
+  EditProductScreen(this.product);
 
   final Product product;
+
+  final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: const Text('Editar Anúncio'),
         centerTitle: true,
       ),
-      body: ListView(
-        children: <Widget>[
-          ImagesForm(product),
-        ],
+      body: Form(
+        key: formKey,
+        child: ListView(
+          children: <Widget>[
+            ImagesForm(product),
+            RaisedButton(
+              onPressed: (){
+                if(formKey.currentState.validate()){
+
+                } else {
+
+                }
+              },
+              child: const Text('Salvar'),
+            ),
+          ],
+        ),
       ),
     );
   }
