@@ -1,6 +1,7 @@
 import 'package:e_commerce_model/common/custom_drawer/custom_drawer.dart';
 import 'package:e_commerce_model/models/page_manager.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
+import 'package:e_commerce_model/screens/admin_users/admin_users_screen.dart';
 import 'package:e_commerce_model/screens/home/home_screen.dart';
 import 'package:e_commerce_model/screens/products/products_screen.dart';
 import 'package:flutter/material.dart';
@@ -35,12 +36,7 @@ class BaseScreen extends StatelessWidget {
               ),
               // ignore: prefer_if_elements_to_conditional_expressions
               userManager.adminEnabled
-                ? Scaffold(
-                    drawer: CustomDrawer(),
-                    appBar: AppBar(
-                      title: const Text('Usuários'),
-                    ),
-                  )
+                ? AdminUsersScreen()
                 : Container(),
               // ignore: prefer_if_elements_to_conditional_expressions
               userManager.adminEnabled

@@ -1,4 +1,5 @@
 import 'package:e_commerce_model/common/custom_colors.dart';
+import 'package:e_commerce_model/models/admin_users_manager.dart';
 import 'package:e_commerce_model/models/cart_manager.dart';
 import 'package:e_commerce_model/models/home_manager.dart';
 import 'package:e_commerce_model/models/product.dart';
@@ -38,6 +39,11 @@ class MyApp extends StatelessWidget {
           lazy: false,
           update: (_, userManager, carManager) => carManager..updateUser(userManager),
         ),
+        ChangeNotifierProxyProvider<UserManager, AdminUsersManager>(
+          create: (_) => AdminUsersManager(),
+          lazy: false, 
+          update: (_, userManager, adminUsersManager) => adminUsersManager..updateUser(userManager),
+        )
       ],
       child: MaterialApp(
         title: 'E-commerce Model',

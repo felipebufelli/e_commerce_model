@@ -12,6 +12,7 @@ MERGED from [:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_auth_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
@@ -142,6 +143,8 @@ MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce
 MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
@@ -260,6 +263,10 @@ ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_mode
 		ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+uses-permission#android.permission.VIBRATE
+ADDED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-63
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
