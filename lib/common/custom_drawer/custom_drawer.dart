@@ -22,7 +22,6 @@ class CustomDrawer extends StatelessWidget {
               ),
             ),
             ListView(
-              scrollDirection: Axis.vertical,
               children: <Widget>[
                 CustomDrawerHeader(),
                 const Divider(),

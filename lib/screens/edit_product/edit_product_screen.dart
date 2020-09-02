@@ -1,6 +1,7 @@
 import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/models/product.dart';
 import 'package:e_commerce_model/screens/edit_product/components/images_form.dart';
+import 'package:e_commerce_model/screens/edit_product/components/sizes_form.dart';
 import 'package:flutter/material.dart';
 
 class EditProductScreen extends StatelessWidget {
@@ -88,6 +89,7 @@ class EditProductScreen extends StatelessWidget {
                       return null;
                     },
                   ),
+                  SizesForm(product),
                   RaisedButton(
                     onPressed: () {
                       if (formKey.currentState.validate()) {
