@@ -85,15 +85,15 @@ class EditItemSize extends StatelessWidget {
           color: Colors.red, 
           onTap: onRemove,
         ),
-        const CustomIconButton(
+        CustomIconButton(
           iconData: Icons.arrow_drop_up, 
           color: Colors.black, 
-          onTap: null
+          onTap: onMoveUp
         ),
-        const CustomIconButton(
+        CustomIconButton(
           iconData: Icons.arrow_drop_down, 
           color: Colors.black, 
-          onTap: null
+          onTap: onMoveDown,
         ),
       ],
     );
