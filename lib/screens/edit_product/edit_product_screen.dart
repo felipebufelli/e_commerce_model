@@ -5,9 +5,15 @@ import 'package:e_commerce_model/screens/edit_product/components/sizes_form.dart
 import 'package:flutter/material.dart';
 
 class EditProductScreen extends StatelessWidget {
-  EditProductScreen(this.product);
+  EditProductScreen(Product p): 
+    editing = p != null,
+    // ignore: prefer_if_null_operators
+    product = p != null 
+      ? p.clone()
+      : Product();
 
   final Product product;
+  final bool editing;
 
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
 
@@ -16,7 +22,7 @@ class EditProductScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: const Text('Editar Anúncio'),
+        title: Text(editing ? 'Editar Anúncio' : 'Criar Anúncio'),
         centerTitle: true,
       ),
       body: Form(
@@ -39,10 +45,10 @@ class EditProductScreen extends StatelessWidget {
                       fontSize: 20,
                       fontWeight: FontWeight.w600,
                     ),
-                    validator: (name){
-                      if(name.length < 6){
+                    validator: (name) {
+                      if (name.length < 6) {
                         return 'Título muito curto';
-                      } 
+                      }
                       return null;
                     },
                   ),
@@ -68,34 +74,44 @@ class EditProductScreen extends StatelessWidget {
                     padding: EdgeInsets.only(top: 16),
                     child: Text(
                       'Descrição',
-                      style: TextStyle(
-                          fontSize: 16, fontWeight: FontWeight.w500),
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
                     ),
                   ),
                   TextFormField(
                     initialValue: product.description,
-                    style: const TextStyle(
-                        fontSize: 16
-                    ),
+                    style: const TextStyle(fontSize: 16),
                     decoration: const InputDecoration(
-                      hintText: 'Descrição',
-                      border: InputBorder.none
-                    ),
+                        hintText: 'Descrição', border: InputBorder.none),
                     maxLines: null,
-                    validator: (desc){
-                      if(desc.length < 10){
+                    validator: (desc) {
+                      if (desc.length < 10) {
                         return 'Descrição muito curta';
                       }
                       return null;
                     },
                   ),
                   SizesForm(product),
-                  RaisedButton(
-                    onPressed: () {
-                      if (formKey.currentState.validate()) {
-                      } else {}
-                    },
-                    child: const Text('Salvar'),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  SizedBox(
+                    height: 44,
+                    child: RaisedButton(
+                      onPressed: () {
+                        if (formKey.currentState.validate()) {
+                        } else {}
+                      },
+                      color: CustomColors.primaryColor,
+                      disabledColor: CustomColors.primaryColor.withAlpha(100),
+                      textColor: Colors.white,
+                      child: const Text(
+                        'Salvar',
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               ),

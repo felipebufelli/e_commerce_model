@@ -1,5 +1,6 @@
 import 'package:e_commerce_model/common/custom_drawer/custom_drawer.dart';
 import 'package:e_commerce_model/models/products_manager.dart';
+import 'package:e_commerce_model/models/user_manager.dart';
 import 'package:e_commerce_model/screens/products/components/product_list_tile.dart';
 import 'package:e_commerce_model/screens/products/components/search_dialog.dart';
 import 'package:flutter/material.dart';
@@ -58,7 +59,23 @@ class ProductsScreen extends StatelessWidget {
                     });
               }
             },
-          )
+          ),
+          Consumer<UserManager>(
+              builder: (_, userManager, __){
+                if(userManager.adminEnabled){
+                  return IconButton(
+                    icon: const Icon(Icons.add), 
+                    onPressed: (){
+                      Navigator.of(context).pushReplacementNamed(
+                        '/edit_product',
+                      );
+                    }
+                  );
+                } else {
+                  return Container();
+                }
+              },
+            ),
         ],
       ),
       drawer: CustomDrawer(),

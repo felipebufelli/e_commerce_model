@@ -28,7 +28,7 @@ class ProductScreen extends StatelessWidget {
                   return IconButton(
                     icon: const Icon(Icons.edit), 
                     onPressed: (){
-                      Navigator.of(context).pushReplacementNamed(
+                      Navigator.of(context).pushNamed(
                         '/edit_product',
                         arguments: product,
                       );
@@ -38,7 +38,7 @@ class ProductScreen extends StatelessWidget {
                   return Container();
                 }
               },
-            )
+            ),
           ],
         ),
         backgroundColor: Colors.white,

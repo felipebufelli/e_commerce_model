@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/models/item_size.dart';
 import 'package:e_commerce_model/models/product.dart';
 import 'package:flutter/material.dart';
@@ -19,9 +20,9 @@ class SizeWidget extends StatelessWidget {
     if (!size.hasStock) {
       color = Colors.red.withAlpha(50);
     } else if (selected) {
-      color = Theme.of(context).primaryColor;
+      color = CustomColors.primaryColor;
     } else {
-      color = Colors.grey;
+      color = CustomColors.primaryColor.withAlpha(100);
     }
 
     return GestureDetector(
