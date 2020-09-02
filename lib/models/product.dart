@@ -24,6 +24,8 @@ class Product extends ChangeNotifier {
   List<String> images;
   List<ItemSize> sizes;
 
+  List<dynamic> newImages;
+
   ItemSize _selectedSize;
   ItemSize get selectedSize => _selectedSize;
   set selectedSize(ItemSize value) {
