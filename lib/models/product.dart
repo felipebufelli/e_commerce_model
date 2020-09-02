@@ -26,6 +26,10 @@ class Product extends ChangeNotifier {
 
   List<dynamic> newImages;
 
+  final Firestore firestore = Firestore.instance;
+
+  DocumentReference get firestoreRef => firestore.document('products/$id');
+
   ItemSize _selectedSize;
   ItemSize get selectedSize => _selectedSize;
   set selectedSize(ItemSize value) {
@@ -63,6 +67,28 @@ class Product extends ChangeNotifier {
     } catch (e) {
       return null;
     }
+  }
+
+  List<Map<String, dynamic>> exportSizeList() {
+    return sizes.map(
+      (size) => size.toMap()
+    ).toList();
+  }
+
+  Future<void> save() async {
+    final Map<String, dynamic> data = {
+      'name': name,
+      'description': description,
+      'sizes': exportSizeList(),
+    };
+
+    if(id == null) {
+      final doc = await firestore.collection('products').add(data);
+      id = doc.documentID;
+    } else {
+      await firestoreRef.updateData(data);
+    }
+
   }
 
   Product clone() {

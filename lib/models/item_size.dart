@@ -18,6 +18,14 @@ class ItemSize {
     );
   }
 
+  Map<String, dynamic> toMap() {
+    return {
+      'name': name,
+      'price': price,
+      'stock': stock,
+    };
+  }
+
   String name;
   num price;
   int stock;
