@@ -2,6 +2,7 @@ import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/common/custom_drawer/custom_drawer.dart';
 import 'package:e_commerce_model/models/home_manager.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
+import 'package:e_commerce_model/screens/home/components/add_section_widget.dart';
 import 'package:e_commerce_model/screens/home/components/section_list.dart';
 import 'package:e_commerce_model/screens/home/components/section_staggered.dart';
 import 'package:flutter/material.dart';
@@ -91,6 +92,10 @@ class HomeScreen extends StatelessWidget {
                     }
                   }
                 ).toList();
+
+                if(homeManager.editing) {
+                  children.add(AddSectionWidget());
+                }
 
                 return SliverList(
                   delegate: SliverChildListDelegate(children)

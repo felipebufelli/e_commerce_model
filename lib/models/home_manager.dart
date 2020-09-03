@@ -8,7 +8,8 @@ class HomeManager extends ChangeNotifier {
     _loadSections();
   }
 
-  List<Section> sections = [];
+  final List<Section> _sections = [];
+  List<Section> _editingSections = [];
 
   bool editing = false;
 
@@ -19,17 +20,31 @@ class HomeManager extends ChangeNotifier {
     .snapshots()
     .listen(
       (snapshot) {
-        sections.clear();
+        _sections.clear();
         for(final DocumentSnapshot document in snapshot.documents){
-          sections.add(Section.fromDocument(document));
+          _sections.add(Section.fromDocument(document));
         }
         notifyListeners();
       }
     );
   }
 
+  List<Section> get sections {
+    if(editing) {
+      return _editingSections;
+    } else {
+      return _sections;
+    }
+  }
+
+  void addSection(Section section) {
+    _editingSections.add(section);
+    notifyListeners();
+  }
+
   void enterEditing() {
     editing = true;
+    _editingSections = _sections.map((s) => s.clone()).toList();
     notifyListeners();
   }
 
