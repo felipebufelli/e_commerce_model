@@ -104,8 +104,6 @@ class EditProductScreen extends StatelessWidget {
                         if (formKey.currentState.validate()) {
                           formKey.currentState.save(); 
                           product.save();
-                        } else {
-
                         }
                       },
                       color: CustomColors.primaryColor,
