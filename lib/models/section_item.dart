@@ -1,10 +1,8 @@
-import 'package:flutter/foundation.dart';
-
 class SectionItem {
 
   SectionItem({
-    @required this.image,
-    @required this.product,
+    this.image,
+    this.product,
   });
 
   SectionItem.fromMap(Map<String, dynamic> map ) {
@@ -12,7 +10,7 @@ class SectionItem {
     product = map['product'] as String;
   }
 
-  String image;
+  dynamic image;
   String product;
 
   SectionItem clone() {

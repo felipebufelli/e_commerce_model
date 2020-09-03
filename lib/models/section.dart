@@ -1,7 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_model/models/section_item.dart';
+import 'package:flutter/foundation.dart';
 
-class Section {
+class Section extends ChangeNotifier {
 
   Section({
     this.name,
@@ -23,6 +24,11 @@ class Section {
   String name;
   String type;
   List<SectionItem> items;
+
+  void addItem(SectionItem item) {
+    items.add(item);
+    notifyListeners();
+  }
 
   Section clone() {
     return Section(

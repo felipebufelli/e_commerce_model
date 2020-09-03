@@ -42,6 +42,11 @@ class HomeManager extends ChangeNotifier {
     notifyListeners();
   }
 
+  void removeSection(Section section) {
+    _editingSections.remove(section);
+    notifyListeners();
+  }
+
   void enterEditing() {
     editing = true;
     _editingSections = _sections.map((s) => s.clone()).toList();
