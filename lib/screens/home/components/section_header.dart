@@ -10,31 +10,46 @@ class SectionHeader extends StatelessWidget {
     final homeManager = context.watch<HomeManager>();
     final section = context.watch<Section>();
     if (homeManager.editing) {
-      return Row(
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
-          Expanded(
-            child: TextFormField(
-              initialValue: section.name,
-              decoration: const InputDecoration(
-                hintText: 'Título',
-                hintStyle: TextStyle(color: Colors.white),
-                isDense: true,
-                border: InputBorder.none,
+          Row(
+            children: <Widget>[
+              Expanded(
+                child: TextFormField(
+                  initialValue: section.name,
+                  decoration: const InputDecoration(
+                    hintText: 'Título',
+                    hintStyle: TextStyle(color: Colors.white),
+                    isDense: true,
+                    border: InputBorder.none,
+                  ),
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w800,
+                    fontSize: 18,
+                  ),
+                  onChanged: (text) => section.name = text,
+                ),
               ),
-              style: const TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.w800,
-                fontSize: 18,
-              ),
-              onChanged: (text) => section.name = text,
-            ),
+              CustomIconButton(
+                  iconData: Icons.remove_circle_outline,
+                  color: Colors.white,
+                  onTap: () {
+                    homeManager.removeSection(section);
+                  }),
+            ],
           ),
-          CustomIconButton(
-              iconData: Icons.remove_circle_outline,
-              color: Colors.white,
-              onTap: () {
-                homeManager.removeSection(section);
-              }),
+          // ignore: prefer_if_elements_to_conditional_expressions
+          section.error != null 
+            ? Padding(
+              padding: const EdgeInsets.only(bottom: 8.0),
+              child: Text(
+                section.error, 
+                style: const TextStyle(color: Colors.red),
+              ),
+            )
+            : Container(),
         ],
       );
     } else {

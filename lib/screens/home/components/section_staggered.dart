@@ -26,6 +26,7 @@ class SectionStaggered extends StatelessWidget {
             SectionHeader(),
             Consumer<Section>(builder: (_, section, __) {
               return StaggeredGridView.countBuilder(
+                physics: const NeverScrollableScrollPhysics(),
                 padding: EdgeInsets.zero,
                 shrinkWrap: true,
                 crossAxisCount: 4,
