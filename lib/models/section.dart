@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 class Section extends ChangeNotifier {
 
   Section({
+    this.id,
     this.name,
     this.type,
     this.items,
@@ -13,6 +14,7 @@ class Section extends ChangeNotifier {
   }
 
   Section.fromDocument(DocumentSnapshot document){
+    id = document.documentID;
     name = document.data['name'] as String;
     type = document.data['type'] as String;
     items = (document.data['items'] as List)
@@ -21,9 +23,13 @@ class Section extends ChangeNotifier {
       ).toList();
   }
 
+  String id;
   String name;
   String type;
   List<SectionItem> items;
+
+  final Firestore firestore = Firestore.instance; 
+  DocumentReference get firestoreRef => firestore.document('home/$id');
   
   String _error;
   String get error => _error;
@@ -53,8 +59,24 @@ class Section extends ChangeNotifier {
     return error == null;
   }
 
+  Future<void> save() async {
+    final Map<String, dynamic> data = {
+      'name': name,
+      'type': type,
+    };
+
+    if(id == null) {
+      final doc = await firestore.collection('home').add(data);
+      id = doc.documentID;
+    } else {
+      await firestoreRef.updateData(data);
+    }
+
+  }
+
   Section clone() {
     return Section(
+      id: id,
       name: name, 
       type: type, 
       items: items.map((e) => e.clone()).toList()
