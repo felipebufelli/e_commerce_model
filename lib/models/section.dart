@@ -1,6 +1,10 @@
+import 'dart:io';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_model/models/section_item.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
+import 'package:uuid/uuid.dart';
 
 class Section extends ChangeNotifier {
 
@@ -11,6 +15,7 @@ class Section extends ChangeNotifier {
     this.items,
   }){
     items = items ?? [];
+    originalItems = List.from(items);
   }
 
   Section.fromDocument(DocumentSnapshot document){
@@ -27,9 +32,13 @@ class Section extends ChangeNotifier {
   String name;
   String type;
   List<SectionItem> items;
+  List<SectionItem> originalItems;
 
   final Firestore firestore = Firestore.instance; 
+  final FirebaseStorage storage = FirebaseStorage.instance;
+
   DocumentReference get firestoreRef => firestore.document('home/$id');
+  StorageReference get storageRef => storage.ref().child('home').child(id);
   
   String _error;
   String get error => _error;
@@ -71,6 +80,32 @@ class Section extends ChangeNotifier {
     } else {
       await firestoreRef.updateData(data);
     }
+
+    for(final item in items) {
+      if(item.image is File) {
+        final StorageUploadTask task = storageRef.child(Uuid().v1())
+          .putFile(item.image as File);
+        final StorageTaskSnapshot snapshot = await task.onComplete;
+        final String url = await snapshot.ref.getDownloadURL() as String;
+        item.image = url;
+      }
+    }
+
+    for(final original in originalItems) {
+      if(!items.contains(original)) {
+        try {
+          final ref = await storage.getReferenceFromUrl(original.image as String);
+          await ref.delete();
+        // ignore: empty_catches
+        } catch (e) {}
+      }
+    }
+    
+    final Map<String, dynamic> itemsData = {
+      'items': items.map((e) => e.toMap()).toList(),
+    };
+
+    await firestoreRef.updateData(itemsData);
 
   }
 
