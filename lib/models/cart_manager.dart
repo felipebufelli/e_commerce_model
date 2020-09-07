@@ -6,6 +6,7 @@ import 'package:e_commerce_model/models/user.dart';
 import 'package:e_commerce_model/models/user_manager.dart';
 import 'package:e_commerce_model/services/cepaberto_service.dart';
 import 'package:flutter/foundation.dart';
+import 'package:geolocator/geolocator.dart';
 
 class CartManager extends ChangeNotifier {
 
@@ -15,6 +16,8 @@ class CartManager extends ChangeNotifier {
   Address address;
 
   num productsPrice = 0.0;
+
+  final Firestore firestore = Firestore.instance;
 
   void updateUser(UserManager userManager){
     user = userManager.user;
@@ -114,6 +117,37 @@ class CartManager extends ChangeNotifier {
 
     } catch (e) {
       debugPrint(e.toString());
+    }
+
+  }
+
+  void setAddress(Address address) {
+    this.address = address;
+    calculateDelivery(address.lat, address.long);
+  }
+
+  void removeAddress() {
+    address = null;
+    notifyListeners();
+  }
+
+  Future<void> calculateDelivery(double lat, double long) async {
+
+    final DocumentSnapshot doc = await firestore.document('aux/delivery').get();
+
+    final latStore = doc.data['lat'] as double;
+    final longStore = doc.data['long'] as double;
+
+    final maxKm = doc.data['maxKm'] as num;
+
+    double dis = await Geolocator().distanceBetween(latStore, longStore, lat, long);
+
+    dis /= 1000.0; //Distancia em Km
+
+    if(dis <= maxKm) {
+
+    } else {
+
     }
 
   }

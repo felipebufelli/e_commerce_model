@@ -1,7 +1,9 @@
 import 'package:e_commerce_model/common/custom_colors.dart';
 import 'package:e_commerce_model/models/address.dart';
+import 'package:e_commerce_model/models/cart_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 
 class AddressInputField extends StatelessWidget {
   const AddressInputField(this.address);
@@ -14,7 +16,8 @@ class AddressInputField extends StatelessWidget {
       return text.isEmpty ? 'Campo obrigatório' : null;
     }
 
-    return Column(
+    if (address.zipCode == null) {
+      return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
         TextFormField(
@@ -110,7 +113,12 @@ class AddressInputField extends StatelessWidget {
         ),
         const SizedBox(height: 8,),
         RaisedButton(
-          onPressed: (){},
+          onPressed: (){
+            if(Form.of(context).validate()) {
+              Form.of(context).save();
+              context.read<CartManager>().setAddress(address);
+            }
+          },
           color: CustomColors.primaryColor,
           disabledColor: CustomColors.primaryColor.withAlpha(100),
           textColor: Colors.white,
@@ -118,5 +126,8 @@ class AddressInputField extends StatelessWidget {
         )
       ],
     );
+    } else {
+      return Container();
+    }
   }
 }

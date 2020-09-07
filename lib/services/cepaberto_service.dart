@@ -23,7 +23,8 @@ class CepAbertoService {
       final CepAbertoAddress adress = CepAbertoAddress.fromJson(response.data);
 
       return adress;
-    } on DioError catch (e) {
+    } on DioError {
+      //! TRATAR ERRO
       return Future.error('Erro ao buscar CEP');
     }
 
