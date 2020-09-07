@@ -23,6 +23,7 @@ class AddressInputField extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           TextFormField(
+            enabled: !cartManager.loading,
             initialValue: address.street,
             decoration: const InputDecoration(
               isDense: true,
@@ -36,6 +37,7 @@ class AddressInputField extends StatelessWidget {
             children: <Widget>[
               Expanded(
                 child: TextFormField(
+                  enabled: !cartManager.loading,
                   initialValue: address.number,
                   decoration: const InputDecoration(
                     isDense: true,
@@ -55,6 +57,7 @@ class AddressInputField extends StatelessWidget {
               ),
               Expanded(
                 child: TextFormField(
+                  enabled: !cartManager.loading,
                   initialValue: address.complement,
                   decoration: const InputDecoration(
                     isDense: true,
@@ -67,6 +70,7 @@ class AddressInputField extends StatelessWidget {
             ],
           ),
           TextFormField(
+            enabled: !cartManager.loading,
             initialValue: address.district,
             decoration: const InputDecoration(
               isDense: true,
@@ -116,8 +120,15 @@ class AddressInputField extends StatelessWidget {
           const SizedBox(
             height: 8,
           ),
+          // ignore: prefer_if_elements_to_conditional_expressions
+          cartManager.loading 
+            ? LinearProgressIndicator(
+              valueColor: AlwaysStoppedAnimation(CustomColors.primaryColor),
+              backgroundColor: Colors.transparent
+            )
+            : Container(),
           RaisedButton(
-            onPressed: () async {
+            onPressed: !cartManager.loading ? () async {
               if (Form.of(context).validate()) {
                 Form.of(context).save();
                 try {
@@ -131,7 +142,7 @@ class AddressInputField extends StatelessWidget {
                   );
                 }
               }
-            },
+            } : null,
             color: CustomColors.primaryColor,
             disabledColor: CustomColors.primaryColor.withAlpha(100),
             textColor: Colors.white,
