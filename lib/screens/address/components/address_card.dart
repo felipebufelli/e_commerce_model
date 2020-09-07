@@ -1,3 +1,4 @@
+import 'package:e_commerce_model/screens/address/components/cep_input_field.dart';
 import 'package:flutter/material.dart';
 
 class AddressCard extends StatelessWidget {
@@ -10,7 +11,7 @@ class AddressCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text(
+            const Text(
               'Endereço de Entrega',
               style: TextStyle(
                 fontWeight: FontWeight.w600,
