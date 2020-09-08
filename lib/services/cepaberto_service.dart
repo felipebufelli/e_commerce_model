@@ -11,7 +11,7 @@ class CepAbertoService {
 
     final Dio dio = Dio();
 
-    dio.options.headers[HttpHeaders.authorizationHeader] = 'Token token = $cep_Token';
+    dio.options.headers[HttpHeaders.authorizationHeader] = 'Token token=$cep_Token';
 
     try {
       final response = await dio.get<Map<String, dynamic>>(endPoint);

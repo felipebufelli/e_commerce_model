@@ -4,7 +4,24 @@
             "outputFile": "/home/bufelli/Documents/dev_projects/e_commerce_model/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/res/values-ms/values.xml",
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/res/values-ms/values-ms.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "48",
+                        "startColumns": "4",
+                        "startOffsets": "5725",
+                        "endColumns": "100",
+                        "endOffsets": "5821"
+                    }
+                },
+                {
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/res/values-ms/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/values-ms/values.xml",
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/res/values-ms/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -52,23 +69,6 @@
                         "startOffsets": "2800,2908,3113,3245,3353,3584,3718,3868,4209,4453,4564,4770,4907,5137,5342,5439,5533",
                         "endColumns": "107,204,131,107,230,133,149,135,243,110,205,136,229,204,96,93,111",
                         "endOffsets": "2903,3108,3240,3348,3579,3713,3863,3999,4448,4559,4765,4902,5132,5337,5434,5528,5640"
-                    }
-                },
-                {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-ms/values-ms.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "48",
-                        "startColumns": "4",
-                        "startOffsets": "5725",
-                        "endColumns": "100",
-                        "endOffsets": "5821"
                     }
                 }
             ]

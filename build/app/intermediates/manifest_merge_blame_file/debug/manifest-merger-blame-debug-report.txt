@@ -14,193 +14,195 @@
 14    <uses-permission android:name="android.permission.INTERNET" />
 14-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/debug/AndroidManifest.xml:6:5-66
 14-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/debug/AndroidManifest.xml:6:22-64
-15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
-15-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
-16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
-16-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
-17    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-17-->[:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-66
-17-->[:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-63
-18    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
-19-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:22-76
-20    <!--
-21 io.flutter.app.FlutterApplication is an android.app.Application that
-22         calls FlutterMain.startInitialization(this); in its onCreate method.
-23         In most cases you can leave this as-is, but you if you want to provide
-24         additional functionality it is fine to subclass or reimplement
-25         FlutterApplication and put your custom class here.
-26    -->
-27    <application
-27-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:8:5-34:19
-28        android:name="io.flutter.app.FlutterApplication"
-28-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:9:9-57
-29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-29-->[androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
-30        android:debuggable="true"
-31        android:icon="@mipmap/ic_launcher"
-31-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:11:9-43
-32        android:label="e_commerce_model" >
-32-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:10:9-41
-33        <activity
-33-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:12:9-23:20
-34            android:name="br.com.bufelli.felipe.e_commerce_model.MainActivity"
-34-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:13:13-41
-35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-35-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:16:13-163
-36            android:hardwareAccelerated="true"
-36-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:17:13-47
-37            android:launchMode="singleTop"
-37-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:14:13-43
-38            android:theme="@style/LaunchTheme"
-38-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:15:13-47
-39            android:windowSoftInputMode="adjustResize" >
-39-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:18:13-55
-40            <intent-filter>
-40-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:19:13-22:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:20:17-68
-41-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:20:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:21:17-76
-43-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:21:27-74
-44            </intent-filter>
-45        </activity>
-46        <!--
-47             Don't delete the meta-data below.
-48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-49        -->
-50        <meta-data
-50-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:26:9-28:33
-51            android:name="flutterEmbedding"
-51-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:27:13-44
-52            android:value="2" />
-52-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:28:13-30
-53
-54        <activity
-54-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:29:9-32:71
-55            android:name="com.yalantis.ucrop.UCropActivity"
-55-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:30:13-60
-56            android:screenOrientation="portrait"
-56-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:31:13-49
-57            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-57-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:32:13-69
-58
-59        <service
-59-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-60            android:name="com.google.firebase.components.ComponentDiscoveryService"
-60-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
-61            android:directBootAware="true"
-61-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
-62            android:exported="false" >
-62-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
-63            <meta-data
-63-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-64                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-64-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
-65                android:value="com.google.firebase.components.ComponentRegistrar" />
-65-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-66            <meta-data
-66-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-67                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
-67-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
-68                android:value="com.google.firebase.components.ComponentRegistrar" />
-68-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-69            <meta-data
-69-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
-70-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
-71                android:value="com.google.firebase.components.ComponentRegistrar" />
-71-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-72            <meta-data
-72-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
-73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
-73-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
-74                android:value="com.google.firebase.components.ComponentRegistrar" />
-74-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
-75            <meta-data
-75-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
-76                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-76-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
-77                android:value="com.google.firebase.components.ComponentRegistrar" />
-77-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
-78            <meta-data
-78-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
-79                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-79-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
-81            <meta-data
-81-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
-82                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-82-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
-84        </service>
-85
-86        <provider
-86-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
-87            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-87-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
-88            android:authorities="br.com.bufelli.felipe.e_commerce_model.flutter.image_provider"
-88-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
-89            android:exported="false"
-89-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
-90            android:grantUriPermissions="true" >
-90-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
-91            <meta-data
-91-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
-92                android:name="android.support.FILE_PROVIDER_PATHS"
-92-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
-93                android:resource="@xml/flutter_image_picker_file_paths" />
-93-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
-94        </provider>
-95
-96        <activity
-96-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
-97            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-97-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
-98            android:excludeFromRecents="true"
-98-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
-99            android:exported="true"
-99-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
-100            android:launchMode="singleTask"
-100-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
-101            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-101-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
-102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-102-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
-103
-104        <provider
-104-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
-105            android:name="com.google.firebase.provider.FirebaseInitProvider"
-105-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-106            android:authorities="br.com.bufelli.felipe.e_commerce_model.firebaseinitprovider"
-106-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
-107            android:exported="false"
-107-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
-108            android:initOrder="100" />
-108-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
-109
-110        <activity
-110-->[com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-111            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-111-->[com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->[:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+15-->[:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+16-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+17-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+18-->[:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-66
+18-->[:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-63
+19    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+20-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:22-76
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:8:5-34:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:9:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:11:9-43
+33        android:label="e_commerce_model" >
+33-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:10:9-41
+34        <activity
+34-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:12:9-23:20
+35            android:name="br.com.bufelli.felipe.e_commerce_model.MainActivity"
+35-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:13:13-41
+36            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+36-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:16:13-163
+37            android:hardwareAccelerated="true"
+37-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:17:13-47
+38            android:launchMode="singleTop"
+38-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:14:13-43
+39            android:theme="@style/LaunchTheme"
+39-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:15:13-47
+40            android:windowSoftInputMode="adjustResize" >
+40-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:18:13-55
+41            <intent-filter>
+41-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:19:13-22:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:20:17-68
+42-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:20:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:21:17-76
+44-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:21:27-74
+45            </intent-filter>
+46        </activity>
+47        <!--
+48             Don't delete the meta-data below.
+49             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+50        -->
+51        <meta-data
+51-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:26:9-28:33
+52            android:name="flutterEmbedding"
+52-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:27:13-44
+53            android:value="2" />
+53-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:28:13-30
+54
+55        <activity
+55-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:29:9-32:71
+56            android:name="com.yalantis.ucrop.UCropActivity"
+56-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:30:13-60
+57            android:screenOrientation="portrait"
+57-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:31:13-49
+58            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+58-->/home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:32:13-69
+59
+60        <service
+60-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
+64            <meta-data
+64-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+65-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_storage] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+68-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-122
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_auth] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+71-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+73            <meta-data
+73-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+74-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+77                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+77-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+80                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+80-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+83                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+83-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+85        </service>
+86
+87        <provider
+87-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+89            android:authorities="br.com.bufelli.felipe.e_commerce_model.flutter.image_provider"
+89-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+90            android:exported="false"
+90-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+92            <meta-data
+92-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+95        </provider>
+96
+97        <activity
+97-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+98            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+98-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+102            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+102-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+104        <activity
+104-->[com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+105            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+105-->[com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
+106            android:exported="false"
+106-->[com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
+108
+109        <provider
+109-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+110            android:name="com.google.firebase.provider.FirebaseInitProvider"
+110-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+111            android:authorities="br.com.bufelli.felipe.e_commerce_model.firebaseinitprovider"
+111-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 112            android:exported="false"
-112-->[com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-113-->[com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+112-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+113            android:initOrder="100" />
+113-->[com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 114
 115        <meta-data
-115-->[com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+115-->[com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
 116            android:name="com.google.android.gms.version"
-116-->[com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+116-->[com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
 117            android:value="@integer/google_play_services_version" />
-117-->[com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+117-->[com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
 118    </application>
 119
 120</manifest>

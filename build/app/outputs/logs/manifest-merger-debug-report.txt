@@ -12,32 +12,37 @@ MERGED from [:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_m
 MERGED from [:cloud_firestore_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_api_availability] /home/bufelli/Documents/dev_projects/e_commerce_model/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/e_commerce_model/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_cropper] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:location_permissions] /home/bufelli/Documents/dev_projects/e_commerce_model/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/39c35060f56a661cd09d1da37f97bef8/jetified-play-services-location-16.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c73547dd86491e936f2f95cebe6b68b1/play-services-tasks-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/08dda63aa6024eef34fb6b14605fdb41/play-services-places-placereport-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:17:1-28:12
 MERGED from [com.github.yalantis:ucrop:2.2.6] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f4318b834405921e87d6b24ed175996c/ucrop-2.2.6/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:15:1-37:12
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:2:1-26:12
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:15:1-39:12
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/187fb4c1c365ae32171bd8312a35992f/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0-rc01] /home/bufelli/.gradle/caches/transforms-2/files-2.1/005b1c488f0d5e9f3ba6a8259f041c2d/transition-1.2.0-rc01/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6af37b0dc18acadfaf8b0344ec157d66/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/31cd047ed3ec37dce69ba9f16e10a05d/customview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f266002780b6f62ae73a8842bc10a810/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a5b8095803802f17607f1ac359c588fa/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/00db72760b3662c4528b816b17c43995/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/13eb812daeca5edd5883d98298d1a9d8/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/82b463c8584fb88ea5a1f562d740c4b7/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
@@ -82,28 +87,32 @@ MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_mod
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/39c35060f56a661cd09d1da37f97bef8/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/39c35060f56a661cd09d1da37f97bef8/jetified-play-services-location-16.0.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/187fb4c1c365ae32171bd8312a35992f/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/187fb4c1c365ae32171bd8312a35992f/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c73547dd86491e936f2f95cebe6b68b1/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c73547dd86491e936f2f95cebe6b68b1/play-services-tasks-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/08dda63aa6024eef34fb6b14605fdb41/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/08dda63aa6024eef34fb6b14605fdb41/play-services-places-placereport-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/4227c25f5adddf6ac1aa1a65c6b6f6a4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
 		ADDED from /home/bufelli/Documents/dev_projects/e_commerce_model/android/app/src/main/AndroidManifest.xml:10:9-41
 	android:icon
@@ -166,44 +175,54 @@ MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_mod
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core_web/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /home/bufelli/Documents/dev_projects/e_commerce_model/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:google_api_availability] /home/bufelli/Documents/dev_projects/e_commerce_model/build/google_api_availability/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/e_commerce_model/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] /home/bufelli/Documents/dev_projects/e_commerce_model/build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /home/bufelli/Documents/dev_projects/e_commerce_model/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:location_permissions] /home/bufelli/Documents/dev_projects/e_commerce_model/build/location_permissions/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/1e43ec82407637f465c620e746b223b7/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/39c35060f56a661cd09d1da37f97bef8/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/39c35060f56a661cd09d1da37f97bef8/jetified-play-services-location-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c73547dd86491e936f2f95cebe6b68b1/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.2] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c73547dd86491e936f2f95cebe6b68b1/play-services-tasks-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/08dda63aa6024eef34fb6b14605fdb41/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/08dda63aa6024eef34fb6b14605fdb41/play-services-places-placereport-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.github.yalantis:ucrop:2.2.6] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f4318b834405921e87d6b24ed175996c/ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.yalantis:ucrop:2.2.6] /home/bufelli/.gradle/caches/transforms-2/files-2.1/f4318b834405921e87d6b24ed175996c/ucrop-2.2.6/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/516d475c610d5ee0701cc5d0e0043980/firebase-auth-interop-19.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/187fb4c1c365ae32171bd8312a35992f/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/187fb4c1c365ae32171bd8312a35992f/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/0d479d426be2ba1f4bdfee2f9a7aa519/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/4881302d1430cfdcaa10344523e2ce7f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/28c8df72e3e98cf2af337943db219b6d/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/5a1de8d3594afca67ad230d5d25a73b9/activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0-rc01] /home/bufelli/.gradle/caches/transforms-2/files-2.1/005b1c488f0d5e9f3ba6a8259f041c2d/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.2.0-rc01] /home/bufelli/.gradle/caches/transforms-2/files-2.1/005b1c488f0d5e9f3ba6a8259f041c2d/transition-1.2.0-rc01/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6af37b0dc18acadfaf8b0344ec157d66/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -216,8 +235,8 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bufell
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a5b8095803802f17607f1ac359c588fa/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/06d80eb16b557b026bc1ef456724990c/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/00db72760b3662c4528b816b17c43995/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/00db72760b3662c4528b816b17c43995/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/13eb812daeca5edd5883d98298d1a9d8/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
@@ -272,16 +291,16 @@ MERGED from [:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_m
 MERGED from [:cloud_firestore] /home/bufelli/Documents/dev_projects/e_commerce_model/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:19:13-37
 	tools:targetApi
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:36:13-32
 	android:directBootAware
@@ -312,6 +331,10 @@ ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_mode
 		ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] /home/bufelli/Documents/dev_projects/e_commerce_model/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:geolocator] /home/bufelli/Documents/dev_projects/e_commerce_model/build/geolocator/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:image_picker] /home/bufelli/Documents/dev_projects/e_commerce_model/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
 	android:name
@@ -340,6 +363,26 @@ uses-permission#android.permission.VIBRATE
 ADDED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-66
 	android:name
 		ADDED from [:vibration] /home/bufelli/Documents/dev_projects/e_commerce_model/build/vibration/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/34268753bded0b91ecc4a1af1815ce82/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/34268753bded0b91ecc4a1af1815ce82/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:22-76
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -362,26 +405,14 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/cach
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/a83bb62cb43b672cf00b874e0ee6110c/firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:13:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/34268753bded0b91ecc4a1af1815ce82/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/34268753bded0b91ecc4a1af1815ce82/grpc-android-1.21.0/AndroidManifest.xml:11:5-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:26:22-76
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:31:13-33:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:33:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2c91b1e6de1f8deabe30d61ad1e49241/jetified-firebase-storage-17.0.0/AndroidManifest.xml:32:17-107
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:20:13-22:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:22:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/12e0acbcaf6e33753028a3dd7b88bf63/jetified-firebase-firestore-21.3.0/AndroidManifest.xml:21:17-111
+		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 	android:authorities
@@ -392,17 +423,9 @@ ADDED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/ca
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/e02c6ddbda0b492a742a669d07bb912c/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.2.1] /home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58

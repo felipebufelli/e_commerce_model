@@ -4,23 +4,6 @@
             "outputFile": "/home/bufelli/Documents/dev_projects/e_commerce_model/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
             "map": [
                 {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/411460a16fd40487761f946b71392312/jetified-play-services-basement-17.0.0/res/values-es-rUS/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "251",
-                        "endColumns": "204",
-                        "endOffsets": "455"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4014",
-                        "endColumns": "204",
-                        "endOffsets": "4214"
-                    }
-                },
-                {
                     "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/701c33591765b03ec8ed51d702bd262d/appcompat-1.1.0/res/values-es-rUS/values-es-rUS.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/6eb14f512292913515d869914807ad40/play-services-base-17.1.0/res/values-es-rUS/values.xml",
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/c74e9d76b9181d3585ba58111e512b89/play-services-base-17.2.1/res/values-es-rUS/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/3aaf6e5219b7f981ec263df919098c6f/core-1.1.0/res/values-es-rUS/values-es-rUS.xml",
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/35f29bb1a578f0319e9c3e21730b6b49/core-1.2.0/res/values-es-rUS/values-es-rUS.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +52,23 @@
                         "startOffsets": "5721",
                         "endColumns": "100",
                         "endOffsets": "5817"
+                    }
+                },
+                {
+                    "source": "/home/bufelli/.gradle/caches/transforms-2/files-2.1/2ff237edf5ccc1a7a6d50068ebf12bdc/jetified-play-services-basement-17.2.1/res/values-es-rUS/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "251",
+                        "endColumns": "204",
+                        "endOffsets": "455"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4014",
+                        "endColumns": "204",
+                        "endOffsets": "4214"
                     }
                 }
             ]

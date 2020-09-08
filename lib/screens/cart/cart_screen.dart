@@ -1,3 +1,5 @@
+import 'package:e_commerce_model/common/empty_card.dart';
+import 'package:e_commerce_model/common/login_card.dart';
 import 'package:e_commerce_model/common/price_card.dart';
 import 'package:e_commerce_model/models/cart_manager.dart';
 import 'package:e_commerce_model/screens/cart/components/cart_tile.dart';
@@ -15,7 +17,14 @@ class CartScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Consumer<CartManager>(builder: (_, cartManager, __) {
-        return ListView(
+        return cartManager.user == null
+        ? LoginCard()
+        : cartManager.items.isEmpty
+          ? const EmptyCard(
+            iconData: Icons.remove_shopping_cart, 
+            title: 'Nenhum produto no carrinho!',
+          )
+          : ListView(
           children: <Widget>[
             Column(
                 children: cartManager.items.map((cartProduct) {

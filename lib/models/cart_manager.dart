@@ -31,12 +31,22 @@ class CartManager extends ChangeNotifier {
 
   void updateUser(UserManager userManager){
     user = userManager.user;
+    productsPrice = 0.0;
     items.clear();
+    removeAddress();
 
     if(user != null){
       _loadCartItems();
+      _loadUserAddress();
     }
 
+  }
+
+  Future<void> _loadUserAddress() async {
+    if(user.address !=null && await calculateDelivery(user.address.lat, user.address.long)) {
+      address = user.address;
+      notifyListeners();
+    }
   }
 
   Future<void>_loadCartItems() async {
@@ -122,7 +132,8 @@ class CartManager extends ChangeNotifier {
         address = Address(
           street: cepAbertoAddress.logradouro,
           district: cepAbertoAddress.bairro,
-          zipCode: cepAbertoAddress.cidade.nome,
+          zipCode: cepAbertoAddress.cep,
+          city: cepAbertoAddress.cidade.nome,
           state: cepAbertoAddress.estado.sigla,
           lat: cepAbertoAddress.latitude,
           long: cepAbertoAddress.longitude,
@@ -136,15 +147,15 @@ class CartManager extends ChangeNotifier {
   }
 
   Future<void> setAddress(Address address) async {
-
     loading = true;
 
     this.address = address;
     if(await calculateDelivery(address.lat, address.long)) {
+      user.setAddress(address);
       loading = false;
     } else {
       loading = false;
-      return Future.error('Endereço fora do raio de entrega :(');
+      return Future.error('Endereço fora do raio de entrega');
     }
   }
 
@@ -155,18 +166,14 @@ class CartManager extends ChangeNotifier {
   }
 
   Future<bool> calculateDelivery(double lat, double long) async {
-
     final DocumentSnapshot doc = await firestore.document('aux/delivery').get();
-
     final latStore = doc.data['lat'] as double;
     final longStore = doc.data['long'] as double;
-
     final base = doc.data['base'] as num;
     final km = doc.data['km'] as num;
     final maxKm = doc.data['maxKm'] as num;
 
     double dis = await Geolocator().distanceBetween(latStore, longStore, lat, long);
-
     dis /= 1000.0; //Distancia em Km
 
     if(dis > maxKm) {
