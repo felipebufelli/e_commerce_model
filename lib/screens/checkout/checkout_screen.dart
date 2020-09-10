@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class CheckoutScreen extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProxyProvider<CartManager, CheckoutManager>(
@@ -19,12 +20,38 @@ class CheckoutScreen extends StatelessWidget {
         ),
         body: Consumer<CheckoutManager>(
           builder: (_, checkoutManager, __) {
+          if(checkoutManager.loading) {
+            return Center(
+              child: Column(
+                children: const <Widget>[
+                  CircularProgressIndicator(
+                    valueColor: AlwaysStoppedAnimation(Colors.white)
+                  ),
+                  SizedBox(height: 16,),
+                  Text(
+                    'Processando seu pagamento...',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w800,
+                      fontSize: 16,
+                    ),
+                  ),
+                ],
+              ),
+            );
+          }
           return ListView(
             children: <Widget>[
               PriceCard(
                 buttonText: 'Finalizar pedido', 
                 onPressed: () {
-                  checkoutManager.checkout();
+                  checkoutManager.checkout(
+                    onStockFail: (e) {
+                      Navigator.of(context).popUntil(
+                        (route) => route.settings.name == '/cart'
+                      );
+                    }
+                  );
                 }
               )
             ],
