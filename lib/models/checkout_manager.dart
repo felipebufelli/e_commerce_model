@@ -44,8 +44,9 @@ class CheckoutManager extends ChangeNotifier {
 
     cartManager.clear();
 
-    loading = false;
+    onSucess();
 
+    loading = false;
   }
 
   Future<int> _getOrderId() async {

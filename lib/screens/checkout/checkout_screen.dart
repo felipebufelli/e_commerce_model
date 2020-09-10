@@ -50,6 +50,12 @@ class CheckoutScreen extends StatelessWidget {
                       Navigator.of(context).popUntil(
                         (route) => route.settings.name == '/cart'
                       );
+                    },
+                    onSucess: () {
+                      Navigator.of(context).popUntil(
+                        (route) => route.settings.name == '/base'
+                      );
+                      //TODO FAZER TELA DE PEDIDO CONFIRMADO
                     }
                   );
                 }
