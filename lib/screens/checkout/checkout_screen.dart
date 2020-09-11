@@ -23,6 +23,7 @@ class CheckoutScreen extends StatelessWidget {
           if(checkoutManager.loading) {
             return Center(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: const <Widget>[
                   CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation(Colors.white)
